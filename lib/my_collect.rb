@@ -1,5 +1,6 @@
 heisman_winners = ["Kyler Murray", "Baker Mayfield", "Lamar Jackson"]
  def first_name(heismans_winners)
    first_name(heismans_winners).collect do |player|
-     name.split(" ").last
+     player.split(" ").last
    end
+ end
